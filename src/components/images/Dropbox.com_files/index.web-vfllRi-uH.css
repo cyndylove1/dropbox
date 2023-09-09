@@ -1,0 +1,11 @@
+@import url('./components-vflVgDLKH.css');
+@import url('./logos-vflnpavQi.css');
+@import url('./icons-vflNfxtEp.css');
+@import url('./foundations-tokens-vflAF3cdn.css');
+@import url('./foundations-components-vfla-mAVQ.css');
+
+/* For any images that are circle cropped, scale them up a bit so that they're still cropped as a squircle */
+.dig-Avatar-image--modern[src*='circle_crop=1'],
+.dig-Avatar-image--modern[srcset*='circle_crop=1'] {
+    transform: scale(1.075);
+}
